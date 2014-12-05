@@ -258,7 +258,7 @@ public class JavaScript {
             length = ((0x7FFF & length) << 16) | source.charAt(offset);
             ++offset;
         }
-        if (sb != null) {
+		if (sb != null) {
             String str = source.substring(offset, offset + length);
             sb.append(str);
         }
